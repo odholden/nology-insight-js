@@ -1,0 +1,110 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+}
+
+body > * {
+    background-color: #4a2f73;
+    border: none;
+    box-shadow: 10px 10px black;
+    margin: 10px auto 30px auto;
+    max-width: 600px;
+}
+
+header {
+    text-align: center;
+    padding: 10px 0;
+}
+
+header > h1 {
+    padding: 10px 0;
+    font-size: 50px;
+}
+
+p {
+    padding: 5px 0;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0;
+    background-color: #f43268;
+}
+
+.buttons button {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 24px;
+    border: none;
+    box-shadow: 5px 5px black;
+    background-color: white;
+    color: black;
+    height: 40px;
+}
+
+main {
+    height: 600px;
+}
+
+#map {
+    height: 600px;
+    border: 5px white;
+}
+
+footer {
+    background-color: #f43268;
+}
+
+footer > p { 
+    padding: 10px;
+}
+
+
+@media screen and (min-width: 800px) {
+    body > * {
+        max-width: 800px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    body > * {
+        max-width: 1200px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    button {
+        font-size: 16px;
+    }
+}
+
+
+
+/* GOOGLE MAPS INFO WINDOW */
+.gm-style .gm-style-iw-c {
+    background-color: #4a2f73;
+    font-family: 'Courier New', Courier, monospace !important;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.gm-style .gm-style-iw {}
+
+.gm-style .gm-style-iw-c .gm-style-iw-d::-webkit-scrollbar-thumb {
+    display: none !important;
+}
+
+.gm-style .gm-style-iw-d::-webkit-scrollbar-track, .gm-style .gm-style-iw-d::-webkit-scrollbar-track-piece {
+    background: none;
+}
+
+.gm-style .gm-style-iw-t::after {
+    background: #4a2f73;
+}
+
+.gm-ui-hover-effect {
+    color: white !important;
+}

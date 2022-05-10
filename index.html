@@ -1,0 +1,35 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Insight + _nology (Simpler Version)</title>
+</head>
+<body>
+    <header>
+        <h1>The _nology leadfinder!</h1>
+        <p>Use this tool to find 20 tech businesses in a UK location to partner with!</p>
+    </header>
+    <section class="buttons">
+        <button value="london">London</button>
+        <button value="bristol">Bristol</button>
+        <button value="manchester">Manchester</button>
+        <button value="edinburgh">Edinburgh</button>
+        <button value="leeds">Leeds</button>
+    </section>
+    <main>
+        <section id="map"></section>
+    </main>
+    <footer>
+        <p>
+            &copy; _nology.io 2022
+        </p>
+    </footer>
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDz9gYDDNClFXPhu256Wx2bwLGJBGyst0c&libraries=places&callback=initMap&v=weekly"
+      defer
+    ></script>
+    <script src="app.js" async defer></script>
+</body>
+</html>
