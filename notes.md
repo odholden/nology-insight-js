@@ -2,7 +2,7 @@
 
 1. Explain what an API is, how it enabled the revolution in the web (Web 2.0, we're now on 4)
 2. Show Google Maps working, as well as tweets embedded in a news story
-3. Then show our app (finished), explain that its using the publicly available API from Google Maps to add extra value to a user. Compare with AirBnb - a multibillion dollar business that exists because of Web 2.0.
+3. Then show our app (finished, branch master), explain that its using the publicly available API from Google Maps to add extra value to a user. Compare with AirBnb - a multibillion dollar business that exists because of Web 2.0.
 
 **Explain:** That was the context, now you're thinking wow sounds powerful, if only I could harness that....
 
