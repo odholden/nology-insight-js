@@ -5,7 +5,8 @@ const locations = {
     bristol: { lat: 51.45, lng: -2.58},
     manchester: { lat: 53.48, lng: -2.24},
     edinburgh: { lat: 55.95, lng: -3.19},
-    leeds: { lat: 53.8, lng: -1.55}
+    leeds: { lat: 25.34, lng: 131.04}
+    // leeds: { lat: 53.8, lng: -1.55}
 }
 
 const initMap = (location) => {
