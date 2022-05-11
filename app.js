@@ -1,7 +1,7 @@
 const london = { lat: 51.51, lng: -0.1};
 
 const locations = {
-    london: { lat: 51.51, lng: -0.1},
+    lond: { lat: 51.51, lng: -0.1},
     bristol: { lat: 51.45, lng: -2.58},
     manchester: { lat: 53.48, lng: -2.24},
     edinburgh: { lat: 55.95, lng: -3.19},
@@ -21,7 +21,6 @@ const initMap = (location) => {
     service.nearbySearch(request, (results, status) => {
         if (status === google.maps.places.PlacesServiceStatus.OK) {
             for (const result of results) {
-                console.log(result)
                 const infowindow = createInfoWindow(result);
                 const marker = createMarker(result, map);
 
